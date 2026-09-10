@@ -64,4 +64,4 @@ pip install -r requirements.txt
 ```
 
 ---
-*Maintained by Shivam.*
+*Maintained by Shiv.*
