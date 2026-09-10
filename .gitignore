@@ -1,0 +1,64 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+deep-learning/
+*/project/Lib/
+*/project/Scripts/
+*/project/pyvenv.cfg
+
+# Secrets, Tokens, API keys
+kaggle.json
+**/kaggle.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# OS generated artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large Datasets (> 20 MB or thousands of images)
+computer-vision/simpsons_dataset/
+computer-vision/kaggle_simpson_testset/
+computer-vision/train/
+datasets/fashion-mnist_train.csv
+datasets/fashion-mnist_test.csv
+datasets/Kanye West - Flashing Lights (Alternate Intro).wav
+datasets/Training/
+datasets/Testing/
+datasets/project/
+projects/volatility-aware-load-forecasting/data/
+projects/volatility-aware-load-forecasting/lightning_logs/
+
+# Large Model Weights & Checkpoints (> 20 MB)
+*.pth
+*.pt
+*.onnx
+*.weights.h5
+*.h5
+*.ckpt
+**/kt_dir/
+
+# Installers & Archives
+archives-and-installers/*.exe
+archives-and-installers/*.tar.xz
+archives-and-installers/*.rar
+archives-and-installers/*.zip
+
+# Logs
+*.log
